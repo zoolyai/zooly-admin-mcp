@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "zooly-admin": {
+      "type": "http",
+      "url": "${ZOOLY_ADMIN_MCP_URL:-https://app.zooly.ai/api/admin-mcp}"
+    }
+  }
+}

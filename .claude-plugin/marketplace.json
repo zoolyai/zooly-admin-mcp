@@ -1,0 +1,12 @@
+{
+  "name": "zooly",
+  "owner": { "name": "Zooly" },
+  "metadata": { "description": "Claude Code plugins for Zooly admins" },
+  "plugins": [
+    {
+      "name": "zooly-admin",
+      "source": "./plugins/zooly-admin",
+      "description": "Connect Claude Code to Zooly Admin: crawl agency rosters, build import tables, and run outreach missions from a chat."
+    }
+  ]
+}
