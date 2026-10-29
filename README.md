@@ -21,8 +21,8 @@ Full guide and example questions: https://docs.zooly.ai/docs/admin/admin-mcp
 
 ## Other servers (dev, local)
 
-The plugin connects to `https://app.zooly.ai/api/admin-mcp`. To use another Zooly server, set `ZOOLY_ADMIN_MCP_URL` before starting Claude Code:
+The plugin always connects to `https://app.zooly.ai/api/admin-mcp`. To use another Zooly server, skip the plugin and add the server by hand:
 
 ```bash
-export ZOOLY_ADMIN_MCP_URL=http://localhost:3004/api/admin-mcp
+claude mcp add --transport http zooly-admin http://localhost:3004/api/admin-mcp
 ```

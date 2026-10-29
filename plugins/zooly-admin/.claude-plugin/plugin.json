@@ -1,6 +1,6 @@
 {
   "name": "zooly-admin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": { "name": "Zooly" },
   "description": "Connect Claude Code to Zooly Admin: crawl agency rosters, build import tables, and run outreach missions from a chat.",
   "homepage": "https://docs.zooly.ai/docs/admin/admin-mcp"
